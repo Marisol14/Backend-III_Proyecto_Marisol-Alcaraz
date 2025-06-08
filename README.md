@@ -138,11 +138,5 @@ Puedes usar MongoDB Compass para corroborar los datos en las colecciones `users`
 
 ---
 
-## 📧 Consultas
-
-Por cualquier consulta sobre la instalación, uso o validación, estoy disponible para ampliar la documentación o asistir en la corrección.
-
----
-
 ¡Gracias por tu tiempo aguardo corrección profe!
 =================================================================

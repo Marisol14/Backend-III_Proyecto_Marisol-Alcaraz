@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const mocksRouter = require('./routes/mocks.router');
 
 const authRouter = require('./routes/auth.router');
 const usersRouter = require('./routes/users.router');
@@ -19,6 +20,7 @@ mongoose.connect(process.env.MONGO_URI)
 app.use('/api/auth', authRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/pets', petsRouter);
+app.use('/api/mocks', mocksRouter);
 
 app.get('/', (req, res) => res.send('AdoptMe API Running'));
 
